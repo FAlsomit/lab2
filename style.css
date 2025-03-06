@@ -1,0 +1,44 @@
+.image-container {
+    position: relative;
+    width: 100%; 
+    max-width: 100%; 
+    margin: auto; 
+    text-align: center;
+
+
+  }
+  
+  .bottom-img {
+    width: 100%; 
+    display: block; 
+  }
+  
+  .top-img {
+    width: 250px; 
+    border-radius: 50%; 
+    position: absolute; 
+    bottom: -70px;
+    left: 50%; 
+    transform: translateX(-50%); 
+/*   i will change this lateer    */
+  }
+  
+  .text-overlay {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 3rem;
+    font-weight: bold;
+    text-shadow: 0 2px 10px rgba(0, 0, 0, 0.7);
+    z-index: 1;
+  }
+h1{
+border-radius: 30px;
+
+  
+  
+  
+
+}
